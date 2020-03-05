@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>MyTemplate_3</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/responsive.css">
+</head>
+<body>
+    <header class="header">
+        <div class="wrapper">
+            <div class="header__wrapper">
+                <div class="header__contact">
+                    <a href="#!" class="header__contact__link">
+                        <img src="img/phone.png" alt="">
+                        <span class="header__contact__link__text">+38 (067) 000 00 01</span>
+                    </a>
+                    <a href="#!" class="header__contact__link">
+                        <img src="img/email.png" alt="">
+                        <span class="header__contact__link__text">e-mailmail@i.ua</span>
+                    </a>
+                </div>
+                <div class="header__logo">
+                    <a href="/" class="header__logo__link">
+                        <span>LOGO</span>
+                    </a>
+                </div>
+                <div class="header__login">
+                    <div class="header__login__row">
+                        <img src="img/login.png" alt="Login">
+                        <a class="btn-login">Log In</a>
+                    </div>
+                    <div class="header__login__reg">
+                        <a class="btn-registration" href="#" onclick="openRegister()">Sing Up</a>
+                    </div>
+                </div>
+                
+            </div>
+            <nav class="nav">
+                <div class="header-nav__logo">
+                    <a href="/" class="header__logo__link">
+                        <span>LOGO</span>
+                    </a>
+                </div>
+                <div class="header-nav">
+                    <ul class="nav__menu">
+                        <li class="nav__menu__item"><a class="nav__menu__item__link" href="#">Home</a></li>
+                        <li class="nav__menu__item"><a class="nav__menu__item__link" href="#">Gallery</a></li>
+                        <li class="nav__menu__item"><a class="nav__menu__item__link" href="#">Activity reporting</a></li>
+                        <li class="nav__menu__item"><a class="nav__menu__item__link" href="#">Forum</a></li>
+                        <li class="nav__menu__item"><a class="nav__menu__item__link" href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="header-nav-mobile">
+                    <a href="javascript:void(0)" onclick="openNav()">
+                        <img src="/img/Group_230.png" alt="Mobile-menu">
+                    </a>
+                    <div id="nav-mobile" class="nav-mobile-overlay">
+                        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                        <div class="nav-mobile-overlay-content">
+                            <a href="#">Home</a>
+                            <a href="#">Gallery</a>
+                            <a href="#">Activity reporting</a>
+                            <a href="#">Forum</a>
+                            <a href="#">Contact</a>
+                        </div>
+                    </div>
+                </div>    
+            </nav>
+        </div>
+    </header>
+    <main class="main">
+        <div class="wrapper">
+            <div class="main-intro">
+                <div class="intro">
+                    <div class="intro-registration">
+                        <div class="intro-registration-caption">
+                            <p>Register now to know the news first!</p>
+                        </div>
+                        <form class="intro-registration-form">
+                            <input type="text" name="name" placeholder="Name">
+                            <input type="tel" name="tel" placeholder="Phone">
+                            <input type="submit" value="Sing Up">
+                        </form>
+                        <div class="intro-registration__panel">
+                            <img src="/img/info-panel.png" alt="info-panel">
+                        </div>
+                        <div class="intro-registration-btn">
+                            <input type="submit" value="Sing Up" onclick="openRegister()">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slider__wrapper">
+                <div class="slider__wrapper__text">
+                    <hr class="hr-line">
+                    <h2 class="caption-h2">latest photos</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque, repellendus asperiores est perferendis sit id corrupti! Ab obcaecati quo aut iste fuga error expedita praesentium dolores itaque! Soluta, tenetur sint?</p>
+                </div>
+                <div class="slideshow-container">
+                        <img src="img/slider_foto1.jpg" alt="Bulding">
+                        <img src="img/slider_foto2.jpg" alt="Bulding">
+                        <img src="img/slider_foto3.jpg" alt="Bulding">
+                </div>  
+                <div class="indicators">
+                    <a class="prev">&#9668;</a>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <a class="next">&#9658;</a>
+                </div>
+                <div class="main__btn">
+                    <input class="main__btn__input" type="submit" value="See all">
+                </div>
+            </div>
+            <div class="content-wrapper">
+                <hr class="hr-line">
+                <h2 class="caption-h2">INFORMATION ABOUT</h2>
+                <div class="info-block__wrapper">
+                    <p class="info-block__wrapper__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda qui corrupti minus, reiciendis obcaecati praesentium magni sit autem nisi necessitatibus dolores vel id voluptatibus commodi libero saepe placeat voluptates laudantium!
+                    Quam, iure. Voluptates, perferendis suscipit vero tempora repellat dolor, totam non minus doloremque harum ab laborum nam beatae consequatur expedita animi optio voluptatum cumque deleniti quae distinctio. Totam, a amet.
+                    Obcaecati, deserunt blanditiis! Eaque delectus unde perferendis ad, dicta voluptatem sint eum reiciendis officia provident debitis autem consequatur qui odit deleniti earum quia harum incidunt veritatis temporibus dignissimos laudantium aut.
+                    Vel accusantium maiores doloremque est quasi molestias atque totam sapiente ad pariatur. Totam non cupiditate, officia quod sed quia reprehenderit ratione sequi velit, consectetur laborum ullam, suscipit nihil labore odit.
+                    Nostrum animi quibusdam, dignissimos hic eius, ab, sed aperiam sapiente eaque esse saepe laudantium ducimus iusto facilis debitis facere nisi beatae labore exercitationem suscipit eos. Voluptates, magni. Iusto, odit sequi?
+                    Vel ad non autem dicta? Aperiam ipsam doloremque aliquam vel ipsa aliquid. Impedit soluta delectus exercitationem fuga odit! Voluptatum ex necessitatibus eius vel quod? Repudiandae odit eligendi saepe atque reiciendis?
+                    Voluptatem repellat exercitationem accusantium iusto dicta numquam necessitatibus, natus sapiente obcaecati veritatis! </p>
+                    <div class="info-block-services">
+                        <h3 class="info-block-services__caption">SERVICE SUPPLIERS</h3>
+                        <hr class="hr-line">
+                        <ul class="info-block-services__elem">
+                            <li class="info-block-services__elem__item"><img src="img/Ellipse39.png" alt="Ellipse"><a href="#">Kyivenergo (electric download)</a></li>
+                            <li class="info-block-services__elem__item"><img src="img/Ellipse39.png" alt="Ellipse"><a href="#">Kiivteploenergo (heat and water supply)</a></li>
+                            <li class="info-block-services__elem__item"><img src="img/Ellipse39.png" alt="Ellipse"><a href="#">Kyivvodokanal (TOVP)</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="news__wrapper">
+                <hr class="hr-line">
+                <h2 class="caption-h2">last news</h2>
+                <div class="news-wrapper-block">
+                    <div class="news-wrapper-block-img">
+                        <img src="img/office.jpg" alt="office-building">
+                    </div>
+                    <div class="news-wrapper-block-text">
+                        <h3 class="news__wrapper__caption">Increased management oversight</h3>
+                        <p class="news-wrapper-block-text__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id deleniti eos voluptatem? Repudiandae, sequi. Consectetur hic mollitia unde placeat! Delectus, minima provident dolorem nobis ipsam nemo perspiciatis architecto natus quos?
+                        Optio ad quas error labore laboriosam amet ut blanditiis adipisci nam quisquam, reiciendis vero mollitia perferendis, ipsum ea, asperiores iusto ipsa odio? Eius sit ducimus possimus aperiam veniam labore architecto?
+                        Dolore quisquam optio, ab sequi modi illo. Aut, cupiditate laudantium porro aperiam vitae temporibus a perspiciatis ex sapiente et accusamus nulla cum nam eaque exercitationem placeat obcaecati consequuntur tenetur veritatis.
+                        Quia natus nisi aperiam, explicabo fugiat eaque aliquid expedita velit asperiores. </p>
+                        <p class="news-wrapper-block-text__link"><a href="#">Read completely &#9658; </a></p>
+                    </div>
+                </div>
+                <div class="indicators">
+                    <a class="prev">&#9668;</a>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <span class="dot" ></span>
+                    <a class="next">&#9658;</a>
+                </div>
+                <div class="main__btn">
+                    <input class="main__btn__input" type="submit" value="See all">
+                </div>
+            </div>
+        </div>   
+    </main>
+    <footer class="footer">
+        <div class="wrapper">
+            <div class="footer-wrapper">
+                <div class="footer-wrapper-left">
+                    <div class="footer-wrapper-left-logo">
+                        <a href="#" class="footer-wrapper-left-logo__text">Logo</a>
+                    </div>
+                    <div class="footer-wrapper-left__text">
+                        <p>A huge number of successful projects did not leave our company without precious experience.<br><br> We are professionals!</p>
+                    </div>
+                    <div class="footer-wrapper-left-img">
+                        <a href="#"><img src="img/twiter.png" alt="twiter"></a>
+                        <a href="#"><img src="img/facebook.png" alt="facebook"></a>
+                        <a href="#"><img src="img/telegram.png" alt="telegram"></a>
+                    </div>
+                </div>
+                <div class="footer-wrapper-right">
+                    <div class="f-w-r__nav">
+                        <div class="f-w-r__nav__b">
+                            <h4 class="caption-h4">Navigation</h4>
+                            <ul class="f-w-r__nav__b-menu">
+                                <li class="menu__item select"><span class="corner-quotation-mark"></span><a href="#">Home</a></li>
+                                <li class="menu__item"><span class="corner-quotation-mark"></span><a href="#">Gallery</a></li>
+                                <li class="menu__item"><span class="corner-quotation-mark"></span><a href="#">Activity reporting</a></li>
+                                <li class="menu__item"><span class="corner-quotation-mark"></span><a href="#">Contact</a></li>
+                            </ul>
+                        </div> 
+                        <div class="f-w-r__nav__c">
+                            <ul class="f-w-r__nav__c-menu">
+                                <li class="menu__item"><span class="corner-quotation-mark"></span><a href="#">Forum</a></li>
+                                <li class="menu__item select"><span class="corner-quotation-mark"></span><a href="#">FAQ</a></li>
+                                <li class="menu__item"><span class="corner-quotation-mark"></span><a href="#">Registration</a></li>
+                                <li class="menu__item"><span class="corner-quotation-mark"></span><a href="#">Log In</a></li>
+                            </ul>
+                        </div> 
+                        
+                    </div>
+                    <span class="vr-line"></span>
+                    <div class="footer-block-contact">
+                        <h4 class="caption-h4">Contact</h4>
+                        <div class="contact">
+                            
+                            <div class="tel">
+                                <img src="img/telf.png" alt="Telefone">
+                                <a href="#" class="tel__text">+38 (067) 000 00 01 </a>
+                            </div>
+                            <div class="email">
+                                <img src="img/emailf.png" alt="email">
+                                <a href="#" class="email__text">e-mailmail@i.ua</a>
+                            </div>
+                            
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    <div class="sing-up-modal">
+        <div id="sing-up-modal" class="sing-up-modal-overlay">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeSingUp()">&times;</a>
+            <div class="sing-up-modal-wrapper">
+                <div class="sing-up-modal-wrapper-form">
+                    <div class="sing-up-modal-wrapper-form-caption">
+                        <h4>Sign up now</h4>
+                    </div>
+                    <form class="contact-form" method="POST">
+                        <div class="contact-form-field-block">
+                            <input id="name" class="field" name="name" required type="text"
+                                placeholder="Ваше имя*" />
+                        </div>
+                        <div class="contact-form-field-block">
+                            <input id="email" class="field" name="email" required type="text"
+                                placeholder="Ваш e-mail*" />
+                        </div>
+                        <div class="contact-form-field-block">
+                            <input id="phone" class="field" name="phone" required type="text"
+                                placeholder="Номер телефона*" />
+                        </div>
+                        <p class="contact-form-text"><i class="contact-form-text-star">*</i> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Commodi enim reiciendis</p>
+                    </form>
+                    <div class="sing-up-modal-wrapper-form-btn">
+                        <input class="sing-up-modal-wrapper-form-btn__mybutton" value="Sing Up" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
